@@ -1,0 +1,47 @@
+current directory: /home/anishka/publicwhip/vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.1/ext/v8
+/usr/bin/ruby2.3 -r ./siteconf20170331-31548-t0n867.rb extconf.rb
+checking for main() in -lpthread... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/anishka/publicwhip/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0/therubyracer-0.12.1/mkmf.log
+
+current directory: /home/anishka/publicwhip/vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.1/ext/v8
+make "DESTDIR=" clean
+
+current directory: /home/anishka/publicwhip/vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.1/ext/v8
+make "DESTDIR="
+compiling external.cc
+compiling value.cc
+compiling handles.cc
+compiling date.cc
+compiling exception.cc
+compiling heap.cc
+compiling context.cc
+compiling trycatch.cc
+compiling message.cc
+compiling stack.cc
+compiling gc.cc
+compiling accessor.cc
+compiling constraints.cc
+compiling backref.cc
+compiling object.cc
+compiling template.cc
+compiling string.cc
+compiling script.cc
+compiling rr.cc
+compiling primitive.cc
+compiling array.cc
+compiling init.cc
+compiling invocation.cc
+compiling v8.cc
+compiling function.cc
+compiling locker.cc
+compiling signature.cc
+compiling constants.cc
+linking shared-object v8/init.so
+
+current directory: /home/anishka/publicwhip/vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.1/ext/v8
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 init.so ./.gem.20170331-31548-1y0p843/v8
